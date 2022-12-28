@@ -1,0 +1,134 @@
+.container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 20px;
+
+}
+
+#poster{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+}
+.poster_block{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+#poster h4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image{
+    height: 500px;
+    background-color: rgb(190, 190, 190);
+
+}
+
+.block_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.block_text p{
+    font-size: 20px;
+}
+
+.hhr{
+    width: 0.5px;
+    height: 100%;
+    background-color: #aeaeae;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#innerline{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.line2{
+    width: 0.5px;
+    height: 100%;
+    background-color: #AEAEAE;
+    margin-right: auto;
+}
+
+#list{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    align-items: start;
+}
+
+.list_items{
+    width: 100%;
+    background-color: #fff;
+
+}
+.itemsblock{
+    height: 115px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list_items a:hover{
+    color: #01C2C9;
+}
+.vhr{
+    width: 80%;
+    height: 0.5px;
+    background-color: #aeaeae;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 文宣 */
+#poster1{
+    background-image: url(../image/文宣1.png);
+    height: 503px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#poster2{
+    background-image: url(../image/文宣2.jpeg);
+    height: 705px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+#poster3{
+    background-image: url(../image/文宣4.png);
+    height: 503px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}

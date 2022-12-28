@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>口罩地圖</title>
+    <script src="https://kit.fontawesome.com/30d15285c0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/font.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav_bar -->
+        <a href="./homepage.html" class="icon_title">
+            <div id="logo"></div>
+            <p>疫事廳</p>
+        </a>
+        <div class="empty">
+        </div>
+        <div id="item1" class="items"><a href="./vaccine.html">
+                <p>疫苗資訊</p>
+            </a></div>
+        <div id="item2" class="items"><a href="./map.html">
+                <p>口罩地圖</p>
+            </a></div>
+        <div id="item3" class="items"><a href="./poster.html">
+                <p>防疫文宣</p>
+            </a></div>
+        <div id="item4" class="items"><a href="./data.html">
+                <p>疫情數據</p>
+            </a></div>
+    </div>
+    <div class="line"></div>
+
+    <div class="container2">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.8255120940976!2d121.44662991498747!3d25.006044345565595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346802ab872bf491%3A0x438a2608c615b5a2!2z5ZyL56uL6Ie654Gj6Jed6KGT5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1640225350421!5m2!1szh-TW!2stw"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="data">
+            <div class="left"></div>
+            <div class="box">
+                <h4>口罩地圖</h4>
+                <p id="mask">剩餘口罩</p>
+                <div class="mask_block">
+                    <div class="inner_block">
+                        <h5>成人</h5>
+                        <div class="number">
+                            <p id="adult">100</p>
+                        </div>
+                    </div>
+                    <div class="hhr">
+                        <div class="lines"></div>
+                    </div>
+                    <div class="inner_block">
+                        <h5>兒童</h5>
+                        <div class="number">
+                            <p id="children">100</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="pharmacy">
+                    <h4 id="name">台藝大藥局</h4>
+                    <div class="details">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        
+                        <p id="location">
+                            220新北市板橋區大觀路一段59號
+                        </p>
+                    </div>
+                    <div class="details">
+                        <div class="icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p id="time">10:00～22:00</p>
+                    </div>
+                    <div class="details">
+                        <div class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p id="phonenumber">2272-2181</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

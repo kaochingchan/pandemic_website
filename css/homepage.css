@@ -1,0 +1,220 @@
+.container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 20px;
+}
+
+#news{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+/* 新聞標題 */
+#news h4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+/* 最新消息 */
+.main_news{
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(../image/news_image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.main_news_text{
+    height: 450px;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%); 
+}
+.arrow{
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.newstitle{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    width: 80%;
+    margin-bottom: 45px;
+}
+.newstitle_hr{
+    margin-top: 15px;
+    height: 0.5px;
+    background-color: #fff;
+}
+
+/* 近期新聞 */
+.recent_news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 40px;
+}
+.news_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.news_block:hover .text_source{
+    font-weight: 600;
+}
+
+.block_date{
+    text-align: center;
+}
+.year_month{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #545454;
+}
+
+.date{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    color: #545454;
+}
+
+
+.block_line{
+    background-color: #AEAEAE;
+    width: 0.5px;
+    height: 67px;
+    margin-left: 20px;
+    margin-right: 22.5px;
+}
+
+.text_source{
+    width: 230px;
+    color: #545454;
+}
+
+
+
+#innerlines{
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* 病例區 */
+#cases{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#cases h4{
+    font-size: 30px;
+}
+
+.hr{
+    height: 0.5px;
+    background-color: #AEAEAE;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* 今日新增病例 */
+.todaycases{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.todaycases h2{
+    color: #01C2C9;
+    font-size: 140px;
+    font-weight: bolder;
+}
+.origin_aboard{
+    width: 40%;
+}
+.oa_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0px 10px;
+}
+.oa_style h5{
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    width: 50%;
+    color: #01C2C9;
+    text-align: center;
+}
+.oa_style p{
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #545454;
+}
+/* 累計確診、死亡 */
+.confirmcases{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.cct{
+    width: 33.3333%;
+    font-size: 18px;
+    color: #545454;
+}
+.ccnumber{
+    width: 66.6666%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #01C2C9;
+}
+
+
+
+
+
+.line2{
+    width: 0.5px;
+    height: 100%;
+    background-color: #AEAEAE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.bottom{
+    background-color: #C4C4C4;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+}

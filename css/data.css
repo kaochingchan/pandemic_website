@@ -1,0 +1,91 @@
+.container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 20px;
+}
+
+#chart{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.chart_block{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chart_block h4{
+    font-size: 30px;
+    color: #545454;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chartembed{
+    width: 100%;
+}
+
+.data_src{
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+
+
+
+#innerline{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+/* 側欄 */
+.line2{
+    width: 0.5px;
+    height: 100%;
+    background-color: #AEAEAE;
+    margin-right: auto;
+}
+
+#lists{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    align-items: start;
+}
+
+.list_items{
+    width: 100%;
+    background-color: #fff;
+
+}
+.itemsblock{
+    height: 115px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list_items a:hover{
+    color: #01C2C9;
+}
+.vhr{
+    width: 90%;
+    height: 0.5px;
+    background-color: #aeaeae;
+    margin-left: auto;
+}

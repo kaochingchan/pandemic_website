@@ -1,0 +1,125 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 20px;
+}
+
+
+#map{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    display: flex;
+    background-color: rgb(131, 131, 131);
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+#data{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 700px;
+}
+.left{
+   width: 5%;
+}
+.box{
+    width: 100%;
+}
+
+h4{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #545454;
+}
+
+.mask_block{
+    width: 100%;
+    height: 170px;
+    background-color: #01C2C9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#mask{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #545454;
+}
+.inner_block{
+    width: 48%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inner_block h5{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 400;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+#adult,#children{
+    font-size: 65px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hhr{
+    width: 4%;
+    height: 80%;
+}
+.lines{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#name{
+    font-size: 30px;
+    color: #01C2C9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.details{
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon{
+    text-align: center;
+    width: 30px;
+    margin-right: 8px;
+}
+.details p{
+    font-size: 18px;
+}
+
